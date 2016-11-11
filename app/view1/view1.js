@@ -9,6 +9,7 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('View1Ctrl', ['$scope', '$window', function($scope, $window) {
+  $scope.sectionstyle ={"height": $window.innerHeight-56 + "px"}
 
 }]);
