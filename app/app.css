@@ -1,102 +1,173 @@
 /* app css stylesheet */
 
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
 }
 
 .menu:before {
-  content: "[";
+    content: "[";
 }
 
 .menu:after {
-  content: "]";
+    content: "]";
 }
 
 .menu > li {
-  display: inline;
+    display: inline;
 }
 
 .menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+    content: "|";
+    padding-right: 0.3em;
 }
-
+.logo-text {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
 .section-1 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: #fff90a;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 46px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff90a;
 }
+
 .section-2 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: red;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: red;
 
 }
+
+.sub-section-3 {
+    height: 150px;
+    position: relative;
+    margin-top: -150px;
+    background: white;
+}
+
+.feature-border {
+    background: #7FFF00;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+}
+.feature-border-no-off {
+    background: #7FFF00;
+    height: 10px;
+    width: 100%;
+}
+
+
+.feat-item {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
 .section-3 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: blue;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0);
 
 }
+
 .section-4 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #7fff00 , #fffc00);
 
 }
+
 .section-5 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: red;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
 
 }
+
 .section-6 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 46px;
-  width: 100%;
-  height: 100%;
-  background-color: blue;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #7fff00 , #fffc00);
 
 }
 
 .header {
-  height: 46px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: white;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
 
 }
 
-
 .viewclass {
-  height: 100%;
+    height: 100%;
+}
+
+.background-slide {
+    transition: transform 1.2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.background-slide-1 {
+    background: #1e6c4d url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
+    background-size: 100% auto;
+    /* width: 100%; */
+    margin: 0;
+    height: 100%;
+}
+
+.three60gif {
+    background: #1e6c4d url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
+    background-size: 100% auto;
+    /* width: 100%; */
+    margin: 0;
+    height: 100%;
+}
+
+.background-slide-2 {
+    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    height: 100%;
+}
+
+.background-slide-3 {
+    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
+    background-size: auto 100%;
+    width: inherit;
+    height: inherit;
+}
+
+.background-slide-4 {
+    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
+    background-size: auto 100%;
+    width: inherit;
+    height: inherit;
 }
 
 body {
-  height: 100%;
+    height: 100%;
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
