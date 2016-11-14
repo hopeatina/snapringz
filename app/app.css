@@ -129,38 +129,38 @@
 }
 
 .background-slide-1 {
-    background: #1e6c4d url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
-    background-size: 100% auto;
+    background: #1e6c4d url(./assets/pinksnappixel.jpg) 20% 50% no-repeat;
+    background-size: cover;
     /* width: 100%; */
     margin: 0;
     height: 100%;
 }
 
 .three60gif {
-    background: #1e6c4d url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
-    background-size: 100% auto;
+    background: #1e6c4d url(./assets/tealsnap.jpg) 20% 50% no-repeat;
+    background-size: cover;
     /* width: 100%; */
     margin: 0;
     height: 100%;
 }
 
 .background-slide-2 {
-    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
-    background-size: 100% auto;
+    background: #db5c51 url(./assets/1hand.jpeg) 20% 50% no-repeat;
+    background-size: cover;
     margin: 0;
     height: 100%;
 }
 
 .background-slide-3 {
-    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
-    background-size: auto 100%;
+    background: #db5c51 url(./assets/yello-w-snap.jpg) 20% 50% no-repeat;
+    background-size: cover;
     width: inherit;
     height: inherit;
 }
 
 .background-slide-4 {
-    background: #db5c51 url(./assets/childrenhandscolor.jpeg) 20% 50% no-repeat;
-    background-size: auto 100%;
+    background: #db5c51 url(./assets/tealsnap.jpg) 20% 50% no-repeat;
+    background-size: cover;
     width: inherit;
     height: inherit;
 }
