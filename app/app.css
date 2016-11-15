@@ -129,7 +129,7 @@
 }
 
 .background-slide-1 {
-    background: #1e6c4d url(./assets/pinksnappixel.jpg) 20% 50% no-repeat;
+    background: #1e6c4d url(./assets/modelsredring.jpg) 20% 50% no-repeat;
     background-size: cover;
     /* width: 100%; */
     margin: 0;
@@ -137,7 +137,7 @@
 }
 
 .three60gif {
-    background: #1e6c4d url(./assets/tealsnap.jpg) 20% 50% no-repeat;
+    background: #1e6c4d url(./assets/Ringv1.png) 20% 50% no-repeat;
     background-size: cover;
     /* width: 100%; */
     margin: 0;
@@ -171,4 +171,12 @@ body {
 
 html {
     height: 100%;
+}
+
+input {
+    line-height: normal;
+    border: 10px black;
+    border-radius: 4px;
+    background: lightgoldenrodyellow;
+    opacity: .4;
 }
