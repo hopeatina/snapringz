@@ -17,6 +17,8 @@ angular.module('myApp.view1', ['ngRoute'])
         margin: 0,
         height: "100%"
     };
+    var texts = ["Snap on Tap", "The ultimate secondary accessory", "Because technology...", "For the super-early adopter"];
+    $scope.introtext =  texts[Math.floor(Math.random() * texts.length)];
     $scope.three60gif["background-size"] = "cover";
         $scope.active = [
             {selected: false, style: {}},

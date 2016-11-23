@@ -8,13 +8,16 @@
 
     </figure>
 
-    <button class="preorderbutton"> Pre-order Now</button>
-    <button class="scrollbutton"> Scroll icon</button>
+    <div class="toptext">{{introtext}}</div>
+    <div class="preorderdiv">
+        <button class="preorderbutton"> Pre-order Now</button>
+    </div>
+
 </div>
 <div class="feature-border-no-off"></div>
 <div ng-style="sectionstyle" class="section-2">
-    <div style="position: relative;height: 0px;"> </div>
-    <figure ng-style="three60gif"> </figure>
+    <div style="position: relative;height: 0px;"></div>
+    <figure ng-style="three60gif"></figure>
     <div ng-click="switchGif(1)" class="gif1"></div>
     <div ng-click="switchGif(2)" class="gif2"></div>
     <div ng-click="switchGif(3)" class="gif3"></div>
@@ -26,59 +29,89 @@
 </div>
 <div class="feature-border"></div>
 <div class="sub-section-3">
-    <div ng-style="active[0].style" ng-click="switchPic(0)" class="feat-item"> Activate spectacles</div>
-    <div ng-style="active[1].style" ng-click="switchPic(1)" class="feat-item"> Quick button select</div>
-    <div ng-style="active[2].style" ng-click="switchPic(2)" class="feat-item"> Vibration feedback when snap begin</div>
-    <div ng-style="active[3].style" ng-click="switchPic(3)" class="feat-item"> Discrete</div>
-    <div ng-style="active[4].style" ng-click="switchPic(4)" class="feat-item"> Charges in case</div>
+    <div ng-style="active[0].style" ng-click="switchPic(0)" class="feat-item"> <img class="icons-large" src="assets/specsicon.png"> Activate spectacles</div>
+    <div ng-style="active[1].style" ng-click="switchPic(1)" class="feat-item"> <img class="icons-large" src="assets/handicon.ico"> Quick button select</div>
+    <div ng-style="active[2].style" ng-click="switchPic(2)" class="feat-item"> <img class="icons-large" src="https://vectr.com/theonlyhope/QlHqrNM9za.png"> Vibration feedback </div>
+    <div ng-style="active[3].style" ng-click="switchPic(3)" class="feat-item"> <img class="icons-large" src="assets/discreteicon.png"> Discrete</div>
+    <div ng-style="active[4].style" ng-click="switchPic(4)" class="feat-item"> <img class="icons-large" src="https://vectr.com/theonlyhope/TBgAwZEW69.png"> Charges in case</div>
 
 </div>
 
 <div ng-style="sectionstyle" class="section-4">
+    <div>
     <figure class="snip1167">
-        <img class="left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3"/>
-        <blockquote>Calvin: Hobbes, sometimes when I'm talking, my words can't keep up with my thoughts. I am beginning
-            to wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+        <img class="left"
+             src="https://static1.squarespace.com/static/5294070de4b070faa7d289b7/t/55aef205e4b001f51b4b2095/1437528582019/ph.png?format=1500w"
+             alt="sq-sample3"/>
+        <blockquote>Meowww. Meowwwwwww..... Meow, meow, meow, meeeeow, meow, mmmmmmeow, meow. Now I don't have to
+            stretch my paws.
         </blockquote>
         <div class="author">
-            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+            <h5>Mr.Kitten <span> ProductHunt</span></h5>
+        </div>
+    </figure>
+    </div>
+
+    <figure class="snip1167">
+        <img class="right"
+             src="http://vignette1.wikia.nocookie.net/courage/images/1/11/Courage.a.jpg/revision/latest?cb=20110304185658"
+             alt="sq-sample3"/>
+        <blockquote>No where near as scary as those wireless headphones!
+        </blockquote>
+        <div class="author">
+            <h5> Courage <span> The Cowardly dog</span></h5>
         </div>
     </figure>
 
     <figure class="snip1167">
-        <img class="right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3"/>
-        <blockquote>Calvin: Hobbes, sometimes when I'm talking, my words can't keep up with my thoughts. I am beginning
-            to wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+        <img class="left" src="https://pbs.twimg.com/media/CLI0F7DUkAEiVE6.png"/>
+        <blockquote>My friends used to judge me because I was always reaching for my spectacles. Now they just see the
+            results on my stories. :)
         </blockquote>
         <div class="author">
-            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+            <h5>James<span> Former Glass owner</span></h5>
         </div>
     </figure>
-
     <figure class="snip1167">
-        <img class="left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3"/>
-        <blockquote>Calvin: Hobbes, sometimes when I'm talking, my words can't keep up with my thoughts. I am beginning
-            to wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+        <img class="left" src="http://www.magicalquote.com/wp-content/uploads/2015/07/Gavin-Belson.jpg"/>
+        <blockquote>The team is amazing! snapRingz will be better than Nucleus. It has to; I invested.
         </blockquote>
         <div class="author">
-            <h5>Pelican Steve <span> LittleSnippets</span></h5>
+            <h5>Gavin Belson<span> hooli</span></h5>
         </div>
     </figure>
 </div>
-<div ng-style="sectionstyle" class="section-5"> Pre-order Now / 500 replica giveaway</div>
+<div ng-style="sectionstyle" class="section-5">
+    <h2 class="order-title">No smart glasses yet ?</h2>
+    <h3 class="order-pic">First 500 orders receive Clippy, our smart camera for taking pictures anywhere </h3>
+    <div class="cameradiv">
+        <img class="camera-pics" src="assets/camerav1.png">
+        <img class="camera-pics" src="assets/camerav1bottom.png">
+        <img class="camera-pics" src="assets/camerav1top.png">
+    </div>
+    <div class="payment-group">
+        <div class="amazonpayment">
+            <img class="amazonbutton" src="https://images-na.ssl-images-amazon.com/images/G/01/Iris3_US/en_US/inca/images/btnPay-gld-Desktop-2x.png">
+            <div class="moneybutton">Get Money</div>
+        </div>
+    </div>
+</div>
 <div ng-style="sectionstyle" class="section-6">
     <div><h3 class="contact-text">Contact Us</h3></div>
     <div class="form">
         <div class="top-form">
-            <div class="name-form"><input class="sub-input"></div>
-            <div class="email-form"><input class="sub-input"></div>
+            <div class="name-form"><input class="sub-input" placeholder="First, Last Name"></div>
+            <div class="email-form"><input class="sub-input" placeholder="Email Address"></div>
         </div>
 
-        <textarea class="message-form"> </textarea>
+        <textarea class="message-form" placeholder="Type your message here"> </textarea>
 
         <div class="submit-form">
             <button class="submit-button">Submit</button>
         </div>
+
+
     </div>
 
 </div>
+<div class="bottomtext">Made by <a href="https://www.twitter.com/the_OnlyHope"> Hope</a></div>
