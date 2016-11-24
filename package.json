@@ -1,10 +1,9 @@
 {
   "name": "snapRingz",
   "private": true,
-  "version": "0.0.0",
   "description": "the smart ring for Spectacles",
   "repository": "https://github.com/hopeatina/snapringz",
-  "version": "0.5",
+  "version": "0.0.5",
   "engines": {
     "node": "4.1.1"
   },
