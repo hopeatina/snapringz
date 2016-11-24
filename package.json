@@ -1,9 +1,13 @@
 {
-  "name": "angular-seed",
+  "name": "snapRingz",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "the smart ring for Spectacles",
+  "repository": "https://github.com/hopeatina/snapringz",
+  "version": "0.5",
+  "engines": {
+    "node": "4.5.1"
+  },
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
