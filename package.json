@@ -6,7 +6,7 @@
   "repository": "https://github.com/hopeatina/snapringz",
   "version": "0.5",
   "engines": {
-    "node": "4.5.1"
+    "node": "4.1.1"
   },
   "license": "MIT",
   "devDependencies": {
