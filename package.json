@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "bower": "^1.5.2",
-    "http-server": "*"
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "devDependencies": {
     "bower": "^1.7.7",
@@ -27,7 +28,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server ./ -p ${PORT:=5000} -c-1 ",
+    "start": "node index.js",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
