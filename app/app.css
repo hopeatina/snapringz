@@ -1,5 +1,220 @@
 /* app css stylesheet */
 
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .background-slide-1 {
+        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background-size: contain;
+        /* width: 100%; */
+        margin: 0;
+        height: 100%;
+    }
+
+    .preorderdiv {
+        position: relative;
+        bottom: 27%;
+        /* width: 100%; */
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+    figure.snip1167 {
+        font-family: 'Raleway', Arial, sans-serif;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        /* margin: 20px; */
+        /* min-width: 220px; */
+        /* max-width: 600px; */
+        /* width: 100%; */
+        color: #333;
+        text-align: left;
+        box-shadow: none !important;
+    }
+
+    figure.snip1167 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    figure.snip1167 img.left {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        /* margin: 0 auto; */
+        display: block;
+        z-index: 1;
+        position: relative;
+    }
+
+    figure.snip1167 img.right {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: block;
+        z-index: 1;
+        float: none;
+        position: relative;
+        /* left: 500px; */
+    }
+
+    figure.snip1167 blockquote {
+        margin: 0;
+        display: block;
+        border-radius: 8px;
+        position: relative;
+        background-color: #fafafa;
+        padding: 50px 75px 75px 75px;
+        font-size: 0.8em;
+        font-weight: 500;
+        margin: -75px 50px 0;
+        line-height: 1.6em;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    figure.snip1167 blockquote:before,
+    figure.snip1167 blockquote:after {
+        font-family: 'FontAwesome';
+        content: "\201C";
+        position: absolute;
+        font-size: 50px;
+        opacity: 0.3;
+        font-style: normal;
+    }
+
+    figure.snip1167 blockquote:before {
+        top: 70px;
+        left: 40px;
+    }
+
+    figure.snip1167 blockquote:after {
+        content: "\201D";
+        right: 41px;
+        top: 70px;
+    }
+
+    figure.snip1167 .author {
+        padding: 15px;
+        margin: -75px 0 0 0;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+    }
+
+    figure.snip1167 .author h5 {
+        opacity: 0.8;
+        margin: 0;
+        font-weight: 800;
+    }
+
+    figure.snip1167 .author h5 span {
+        font-weight: 400;
+        text-transform: none;
+        display: block;
+    }
+
+    .preorderbutton {
+        position: relative;
+        /* z-index: 1; */
+        /* bottom: 15%; */
+        /* left: 50%; */
+        /* float: left; */
+        width: 100%;
+        /* margin: 1%; */
+        padding: 1%;
+        background: chartreuse;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 10px;
+        border-width: 3px;
+        /* border-width: medium; */
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .background-slide-1 {
+        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background-size: contain;
+        /* width: 100%; */
+        margin: 0;
+        height: 100%;
+    }
+
+    .preorderdiv {
+        position: relative;
+        bottom: 27%;
+        /* width: 100%; */
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .background-slide-1 {
+        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background-size: contain;
+        /* width: 100%; */
+        margin: 0;
+        height: 100%;
+    }
+    .preorderdiv {
+        position: relative;
+        bottom: 27%;
+        /* width: 100%; */
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+    .background-slide-1 {
+        background: #dadada url(./assets/3ringz.png) 50% -120px no-repeat;
+        background-size: contain;
+        /* width: 100%; */
+        margin: 0;
+        height: 100%;
+    }
+    .preorderdiv {
+        position: relative;
+        bottom: 27%;
+        /* width: 100%; */
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+    .background-slide-1 {
+        background: #dadada url(./assets/3ringz.png) 50% -120px no-repeat;
+        background-size: contain;
+        /* width: 100%; */
+        margin: 0;
+        height: 100%;
+    }
+    .preorderdiv {
+        position: relative;
+        bottom: 27%;
+        /* width: 100%; */
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
 .menu {
     list-style: none;
     border-bottom: 0.1em solid black;
@@ -140,13 +355,13 @@
     transition: transform 1.2s cubic-bezier(.645, .045, .355, 1);
 }
 
-.background-slide-1 {
-    background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
-    background-size: contain;
-    /* width: 100%; */
-    margin: 0;
-    height: 100%;
-}
+/*.background-slide-1 {*/
+    /*background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;*/
+    /*background-size: contain;*/
+    /*!* width: 100%; *!*/
+    /*margin: 0;*/
+    /*height: 100%;*/
+/*}*/
 
 .three60gif {
     background: #ffffff url(./assets/black720.gif) 50% 50% no-repeat;
@@ -166,6 +381,7 @@
     margin: 10px;
     border-radius: 50%;
 }
+
 .gif2 {
     height: 75px;
     width: 75px;
@@ -176,6 +392,7 @@
     border-radius: 50%;
     background: yellow;
 }
+
 .gif3 {
     height: 75px;
     width: 75px;
@@ -186,6 +403,7 @@
     border-radius: 50%;
     background: black;
 }
+
 .background-slide-2 {
     background: #db5c51 url(./assets/1hand.jpeg) 20% 50% no-repeat;
     background-size: cover;
@@ -229,6 +447,7 @@ input, textarea {
     margin-bottom: 30px;
     height: 250px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .top-form {
@@ -239,10 +458,13 @@ input, textarea {
     margin-right: 10%;
     width: 40%;
     float: left;
+    /* line-height: 55px; */
 }
 
 .sub-input {
-    width: 100%
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
 }
 
 .email-form {
@@ -269,9 +491,10 @@ input, textarea {
     border: 3px white;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 10px;
     color: black;
     width: 100%;
+    line-height: 55px;
     border-style: solid;
 }
 
@@ -284,11 +507,15 @@ figure.snip1167 {
     overflow: hidden;
     /* margin: 20px; */
     /* min-width: 220px; */
-    /* max-width: 600px; */
+    width: 511px;
+    height: 312px;
     /* width: 100%; */
+    /* height: 150px; */
     color: #333;
     text-align: left;
     box-shadow: none !important;
+    margin-bottom: 5px;
+    margin-top: 35px;
 }
 
 figure.snip1167 * {
@@ -324,6 +551,7 @@ figure.snip1167 blockquote {
     display: block;
     border-radius: 8px;
     position: relative;
+    height: 245px;
     background-color: #fafafa;
     padding: 50px 75px 75px 75px;
     font-size: 0.8em;
@@ -380,6 +608,7 @@ figure.snip1167 .author h5 span {
     /* bottom: 15%; */
     /* left: 50%; */
     /* float: left; */
+    line-height: 55px;
     width: 100%;
     /* margin: 1%; */
     padding: 1%;
@@ -391,6 +620,7 @@ figure.snip1167 .author h5 span {
     border-width: 3px;
     /* border-width: medium; */
 }
+
 .scrollbutton {
     position: relative;
     z-index: 1;
@@ -400,28 +630,32 @@ figure.snip1167 .author h5 span {
     margin: 1%;
     padding: 1%;
 }
+
 .camera-pics {
     height: auto;
     width: 30%;
     background: #fbfc00;
     padding: 1%;
     /* border: 100px; */
-    border-color: #7eff00;    /* border-width: thick; */
+    border-color: #7eff00; /* border-width: thick; */
     border-radius: 50%;
     margin: auto;
     box-shadow: 0px 6px 10px;
 }
+
 .order-pic {
     text-align: center;
     color: white;
 }
+
 .order-title {
     text-align: center;
     color: white;
 
 }
+
 .cameradiv {
-    margin:auto;
+    margin: auto;
     width: 80%;
     padding-top: 4%;
 }
@@ -434,6 +668,7 @@ figure.snip1167 .author h5 span {
 .amazonpayment {
     margin-top: 5%;
 }
+
 .moneybutton {
     color: white;
     background: #7eff00;
@@ -448,24 +683,19 @@ figure.snip1167 .author h5 span {
     text-align: center;
     line-height: 55px;
 }
+
 .figdiv {
     width: 100%;
     margin: auto;
     height: 228px;
 }
 
-.preorderdiv {
-    position: relative;
-    bottom: 12%;
-    /* width: 100%; */
-    margin-left: 35%;
-    margin-right: 35%;
-}
+
 
 .toptext {
     color: black;
-    position: absolute;
-    bottom: 12%;
+    position: relative;
+    bottom: 27%;
     width: 100%;
     text-align: center;
     margin-bottom: 4%;
@@ -480,4 +710,10 @@ figure.snip1167 .author h5 span {
     margin-right: auto;
     margin-top: 0px;
     width: auto;
+}
+
+.bottomtext {
+    position: relative;
+    bottom: 9%;
+    text-align: center;
 }
