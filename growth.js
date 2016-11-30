@@ -5,10 +5,10 @@
 var Twitter = require('twitter');
 
 var client = new Twitter({
-    consumer_key: process.env.consumerkey,
-    consumer_secret: process.env.consumersecret,
-    access_token_key: process.env.accesstoken,
-    access_token_secret: process.env.accesstokensecret
+    consumer_key: process.env.CONSUMERKEY,
+    consumer_secret: process.env.CONSUMERSECRET,
+    access_token_key: process.env.ACCESSTOKEN,
+    access_token_secret: process.env.ACCESSTOKENSECRET
 });
 
 var params = {"q": 'spectacles snapchat',
