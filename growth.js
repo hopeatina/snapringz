@@ -14,6 +14,8 @@ var client = new Twitter({
 var params = {"q": 'spectacles snapchat',
 "result_type": 'recent', "count": 100};
 console.log(client);
+
+setTimeout(
 client.get('/search/tweets', params, function(error, tweets, response) {
     var options = ["retweet","favorite"];
 
@@ -42,7 +44,7 @@ client.get('/search/tweets', params, function(error, tweets, response) {
 
     client.post('friendships/create',{screen_name: selectedtweet.user.screen_name, user_id: selectedtweet.user.id_str},function (error,tweets,response){console.log(error + "Friended "+ selectedtweet.user.screen_name);});
 
-});
+}),2000);
 
 // console.log("NEW TASK WAS RUN!");
 // setTimeout(function(){
