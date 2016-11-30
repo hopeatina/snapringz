@@ -13,7 +13,7 @@ var client = new Twitter({
 
 var params = {"q": 'spectacles snapchat',
 "result_type": 'recent', "count": 100};
-// console.log(client);
+console.log(client);
 client.get('/search/tweets', params, function(error, tweets, response) {
     var options = ["retweet","favorite"];
 
