@@ -17,12 +17,18 @@ var params = {"q": 'spectacles snapchat',
 client.get('/search/tweets', params, function(error, tweets, response) {
     var options = ["retweet","favorite"];
 
+    if (!error) {
+        console.log("No error")
+    } else {
+        console.log(error)
+    }
     var temptweets = tweets;
+    console.log(temptweets);
     for(var i =0; i < 10; i++) {
         var index = Math.floor(Math.random() * temptweets.statuses.length);
         var selectedtweet = temptweets.statuses[index];
         var option = options[Math.floor(Math.random() * options.length)];
-        // console.log("tweet length", temptweets.statuses.length, index);
+        console.log("tweet length", temptweets.statuses.length, index);
         if (option == "favorite") {
         client.post('favorites/create',{id: selectedtweet.id_str}, function (error,tweets,response){console.log(error + " Favorited");});
         // client.post('favorites/create',{id: selectedtweet.id}, function (error,tweets,response){console.log(error+ ", Favorited "+ selectedtweet.id);});
@@ -36,11 +42,6 @@ client.get('/search/tweets', params, function(error, tweets, response) {
 
     client.post('friendships/create',{screen_name: selectedtweet.user.screen_name, user_id: selectedtweet.user.id_str},function (error,tweets,response){console.log(error + "Friended "+ selectedtweet.user.screen_name);});
 
-    if (!error) {
-        console.log("No error")
-    } else {
-        console.log(error)
-    }
 });
 
 // console.log("NEW TASK WAS RUN!");
