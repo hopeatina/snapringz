@@ -13,7 +13,6 @@ var client = new Twitter({
 
 var params = {"q": 'spectacles snapchat',
 "result_type": 'recent', "count": 100};
-console.log(client);
 
 setTimeout(
 client.get('/search/tweets', params, function(error, tweets, response) {
@@ -22,7 +21,7 @@ client.get('/search/tweets', params, function(error, tweets, response) {
     if (!error) {
         console.log("No error")
     } else {
-        console.log(error)
+        console.log(error, client, response)
     }
     var temptweets = tweets;
     console.log(temptweets);
