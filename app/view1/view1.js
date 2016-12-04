@@ -11,6 +11,11 @@ angular.module('myApp.view1', ['ngRoute'])
 
     .controller('View1Ctrl', ['$scope', '$window', function ($scope, $window) {
         $scope.sectionstyle = {"height": $window.innerHeight - 56 + "px"};
+        $scope.testyle = $window.innerWidth < 1283 ? { "margin-left": ($window.innerWidth-500)/2 + "px", "margin-right": ($window.innerWidth-500)/2 + "px" } :
+        {"margin-left": ($window.innerWidth-1000)/5 + "px", "margin-right": ($window.innerWidth-1000)/5 + "px"};
+        console.log($scope.testyle);
+        $scope.smallscreen = $window.innerWidth > 750;
+        console.log($window.innerWidth);
         $scope.three60gif = {
             background: "#ffffff url(./assets/neongreen720.gif) 50% 50% no-repeat",
         /* width: 100%; */
@@ -48,6 +53,19 @@ angular.module('myApp.view1', ['ngRoute'])
                 })
             }
             $scope.active[picnumber].style = $scope.active[picnumber].selected ? {} : {background: "#7FFF00"};
+            if (picnumber ==0){
+                $scope.featuretext = "Activate spectacles";
+            }if (picnumber ==1){
+                $scope.featuretext = "Quick button select";
+            }if (picnumber ==2){
+                $scope.featuretext = "Vibration feedback";
+            }if (picnumber ==3){
+                $scope.featuretext = "Discrete";
+            }if (picnumber ==4){
+                $scope.featuretext = "Charges in case";
+            }
+            console.log($window.innerWidth);
+
 
             console.log($scope.active[picnumber].style, picnumber)
 

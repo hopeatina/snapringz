@@ -5,20 +5,38 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
     .background-slide-1 {
-        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background: #dadada url(./assets/3ringz.png) 50% 44% no-repeat;
         background-size: contain;
         /* width: 100%; */
         margin: 0;
         height: 100%;
     }
 
+    .toptext {
+        color: black;
+        position: relative;
+        bottom: 33%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4%;
+        font-style: italic;
+        font-size: x-large;
+    }
+    .background-slide-3 {
+        background: white url(./assets/actspec.png) 50% 25% no-repeat;
+        background-size: contain;
+        margin: 0;
+        height: 100%;
+    }
+
     .preorderdiv {
         position: relative;
-        bottom: 27%;
+        bottom: 33%;
         /* width: 100%; */
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
+
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
     figure.snip1167 {
@@ -26,13 +44,18 @@
         position: relative;
         float: left;
         overflow: hidden;
-        /* margin: 20px; */
+        margin: 5%;
+        max-width: 500px;
         /* min-width: 220px; */
-        /* max-width: 600px; */
+        width: 90%;
+        /* height: 312px; */
         /* width: 100%; */
+        /* height: 150px; */
         color: #333;
         text-align: left;
         box-shadow: none !important;
+        /* margin-bottom: 5px; */
+        /* margin-top: 35px; */
     }
 
     figure.snip1167 * {
@@ -64,15 +87,16 @@
     }
 
     figure.snip1167 blockquote {
-        margin: 0;
+        /* margin: 0; */
         display: block;
         border-radius: 8px;
         position: relative;
+        height: 245px;
         background-color: #fafafa;
-        padding: 50px 75px 75px 75px;
+        padding: 75px 10px 0px 50px;
         font-size: 0.8em;
         font-weight: 500;
-        margin: -75px 50px 0;
+        margin: -75px 5px 0px;
         line-height: 1.6em;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
@@ -88,14 +112,14 @@
     }
 
     figure.snip1167 blockquote:before {
-        top: 70px;
-        left: 40px;
+        top: 85px;
+        left: 11px;
     }
 
     figure.snip1167 blockquote:after {
         content: "\201D";
-        right: 41px;
-        top: 70px;
+        right: 13px;
+        top: 165px;
     }
 
     figure.snip1167 .author {
@@ -148,6 +172,13 @@
         height: 100%;
     }
 
+    .background-slide-3 {
+        background: white url(./assets/actspec.png) 50% 25% no-repeat;
+        background-size: contain;
+    margin: 0;
+        height: 100%;
+    }
+
     .preorderdiv {
         position: relative;
         bottom: 27%;
@@ -155,6 +186,111 @@
         margin-left: 33%;
         margin-right: 33%;
     }
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+    figure.snip1167 {
+        font-family: 'Raleway', Arial, sans-serif;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 5%;
+        /* min-width: 220px; */
+        width: 90%;
+        /* height: 312px; */
+        /* width: 100%; */
+        /* height: 150px; */
+        color: #333;
+        text-align: left;
+        box-shadow: none !important;
+        /* margin-bottom: 5px; */
+        /* margin-top: 35px; */
+    }
+
+    figure.snip1167 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    figure.snip1167 img.left {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        /* margin: 0 auto; */
+        display: block;
+        z-index: 1;
+        position: relative;
+    }
+
+    figure.snip1167 img.right {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: block;
+        z-index: 1;
+        float: none;
+        position: relative;
+        /* left: 500px; */
+    }
+
+    figure.snip1167 blockquote {
+        /* margin: 0; */
+        display: block;
+        border-radius: 8px;
+        position: relative;
+        height: 245px;
+        background-color: #fafafa;
+        padding: 75px 10px 0px 50px;
+        font-size: 0.8em;
+        font-weight: 500;
+        margin: -75px 5px 0px;
+        line-height: 1.6em;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    figure.snip1167 blockquote:before,
+    figure.snip1167 blockquote:after {
+        font-family: 'FontAwesome';
+        content: "\201C";
+        position: absolute;
+        font-size: 50px;
+        opacity: 0.3;
+        font-style: normal;
+    }
+
+    figure.snip1167 blockquote:before {
+        top: 85px;
+        left: 11px;
+    }
+
+    figure.snip1167 blockquote:after {
+        content: "\201D";
+        right: 13px;
+        top: 165px;
+    }
+
+    figure.snip1167 .author {
+        padding: 15px;
+        margin: -75px 0 0 0;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+    }
+
+    figure.snip1167 .author h5 {
+        opacity: 0.8;
+        margin: 0;
+        font-weight: 800;
+    }
+
+    figure.snip1167 .author h5 span {
+        font-weight: 400;
+        text-transform: none;
+        display: block;
+    }
+
 
 }
 
@@ -167,6 +303,14 @@
         margin: 0;
         height: 100%;
     }
+
+    .background-slide-3 {
+        background: white url(./assets/actspec.png) 50% 25% no-repeat;
+        background-size: contain;
+    margin: 0;
+        height: 100%;
+    }
+
     .preorderdiv {
         position: relative;
         bottom: 27%;
@@ -187,9 +331,16 @@
         margin: 0;
         height: 100%;
     }
+
+    .background-slide-3 {
+        background: white url(./assets/actspec.png) 50% 0% no-repeat;
+        background-size: contain;
+    margin: 0;
+        height: 100%;
+    }
     .preorderdiv {
         position: relative;
-        bottom: 27%;
+        bottom: 30%;
         /* width: 100%; */
         margin-left: 35%;
         margin-right: 35%;
@@ -206,9 +357,16 @@
         margin: 0;
         height: 100%;
     }
+
+    .background-slide-3 {
+        background: white url(./assets/actspec.png) 50% -25% no-repeat;
+        background-size: contain;
+    margin: 0;
+        height: 100%;
+    }
     .preorderdiv {
         position: relative;
-        bottom: 27%;
+        bottom: 33%;
         /* width: 100%; */
         margin-left: 35%;
         margin-right: 35%;
@@ -356,16 +514,16 @@
 }
 
 /*.background-slide-1 {*/
-    /*background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;*/
-    /*background-size: contain;*/
-    /*!* width: 100%; *!*/
-    /*margin: 0;*/
-    /*height: 100%;*/
+/*background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;*/
+/*background-size: contain;*/
+/*!* width: 100%; *!*/
+/*margin: 0;*/
+/*height: 100%;*/
 /*}*/
 
 .three60gif {
     background: #ffffff url(./assets/black720.gif) 50% 50% no-repeat;
-    background-size: cover;
+    background-size: contain;
     /* width: 100%; */
     margin: 0;
     height: 100%;
@@ -405,21 +563,14 @@
 }
 
 .background-slide-2 {
-    background: #db5c51 url(./assets/1hand.jpeg) 20% 50% no-repeat;
-    background-size: cover;
+    background: white url(./assets/1hand.jpeg) 50% 50% no-repeat;
+    background-size: contain;
     margin: 0;
     height: 100%;
 }
 
-.background-slide-3 {
-    background: #db5c51 url(./assets/3ringz.png) 20% 50% no-repeat;
-    background-size: cover;
-    width: inherit;
-    height: inherit;
-}
-
 .background-slide-4 {
-    background: #db5c51 url(./assets/models.jpg) 20% 50% no-repeat;
+    background: white url(./assets/models.jpg) 20% 50% no-repeat;
     background-size: cover;
     width: inherit;
     height: inherit;
@@ -498,109 +649,6 @@ input, textarea {
     border-style: solid;
 }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-figure.snip1167 {
-    font-family: 'Raleway', Arial, sans-serif;
-    position: relative;
-    float: left;
-    overflow: hidden;
-    /* margin: 20px; */
-    /* min-width: 220px; */
-    width: 511px;
-    height: 312px;
-    /* width: 100%; */
-    /* height: 150px; */
-    color: #333;
-    text-align: left;
-    box-shadow: none !important;
-    margin-bottom: 5px;
-    margin-top: 35px;
-}
-
-figure.snip1167 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-figure.snip1167 img.left {
-    max-width: 100%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    /* margin: 0 auto; */
-    display: block;
-    z-index: 1;
-    position: relative;
-}
-
-figure.snip1167 img.right {
-    max-width: 100%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: block;
-    z-index: 1;
-    float: none;
-    position: relative;
-    /* left: 500px; */
-}
-
-figure.snip1167 blockquote {
-    margin: 0;
-    display: block;
-    border-radius: 8px;
-    position: relative;
-    height: 245px;
-    background-color: #fafafa;
-    padding: 50px 75px 75px 75px;
-    font-size: 0.8em;
-    font-weight: 500;
-    margin: -75px 50px 0;
-    line-height: 1.6em;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
-figure.snip1167 blockquote:before,
-figure.snip1167 blockquote:after {
-    font-family: 'FontAwesome';
-    content: "\201C";
-    position: absolute;
-    font-size: 50px;
-    opacity: 0.3;
-    font-style: normal;
-}
-
-figure.snip1167 blockquote:before {
-    top: 70px;
-    left: 40px;
-}
-
-figure.snip1167 blockquote:after {
-    content: "\201D";
-    right: 41px;
-    top: 70px;
-}
-
-figure.snip1167 .author {
-    padding: 15px;
-    margin: -75px 0 0 0;
-    text-transform: uppercase;
-    color: black;
-    text-align: center;
-}
-
-figure.snip1167 .author h5 {
-    opacity: 0.8;
-    margin: 0;
-    font-weight: 800;
-}
-
-figure.snip1167 .author h5 span {
-    font-weight: 400;
-    text-transform: none;
-    display: block;
-}
 
 .preorderbutton {
     position: relative;
@@ -691,11 +739,10 @@ figure.snip1167 .author h5 span {
 }
 
 
-
-.toptext {
+.toptext-feat {
     color: black;
     position: relative;
-    bottom: 27%;
+    bottom: 33%;
     width: 100%;
     text-align: center;
     margin-bottom: 4%;
@@ -704,7 +751,8 @@ figure.snip1167 .author h5 span {
 }
 
 .icons-large {
-    height: 45%;
+    max-height: 45%;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;

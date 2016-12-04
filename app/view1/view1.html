@@ -24,35 +24,51 @@
 </div>
 <div class="feature-border-no-off"></div>
 <div ng-style="sectionstyle" class="section-3">
-    <figure><img style="width: 100%" src="assets/actspec.png"></figure>
+    <figure class="background-slide background-slide-3"></figure>
+    <div class="toptext-feat" ng-if="!smallscreen">{{featuretext}}</div>
 
 </div>
 <div class="feature-border"></div>
 <div class="sub-section-3">
-    <div ng-style="active[0].style" ng-click="switchPic(0)" class="feat-item"> <img class="icons-large" src="assets/specsicon.png"> Activate spectacles</div>
-    <div ng-style="active[1].style" ng-click="switchPic(1)" class="feat-item"> <img class="icons-large" src="assets/handicon.ico"> Quick button select</div>
-    <div ng-style="active[2].style" ng-click="switchPic(2)" class="feat-item"> <img class="icons-large" src="https://vectr.com/theonlyhope/QlHqrNM9za.png"> Vibration feedback </div>
-    <div ng-style="active[3].style" ng-click="switchPic(3)" class="feat-item"> <img class="icons-large" src="assets/discreteicon.png"> Discrete</div>
-    <div ng-style="active[4].style" ng-click="switchPic(4)" class="feat-item"> <img class="icons-large" src="https://vectr.com/theonlyhope/TBgAwZEW69.png"> Charges in case</div>
+    <div ng-style="active[0].style" ng-click="switchPic(0)" class="feat-item"><img class="icons-large"
+                                                                                   src="assets/specsicon.png">
+        <div ng-if="smallscreen">Activate spectacles</div>
+    </div>
+    <div ng-style="active[1].style" ng-click="switchPic(1)" class="feat-item"><img class="icons-large"
+                                                                                   src="assets/handicon.ico">
+        <div ng-if="smallscreen">Quick button select</div>
+    </div>
+    <div ng-style="active[2].style" ng-click="switchPic(2)" class="feat-item"><img class="icons-large"
+                                                                                   src="https://vectr.com/theonlyhope/QlHqrNM9za.png">
+        <div ng-if="smallscreen">Vibration feedback</div>
+    </div>
+    <div ng-style="active[3].style" ng-click="switchPic(3)" class="feat-item"><img class="icons-large"
+                                                                                   src="assets/discreteicon.png">
+        <div ng-if="smallscreen"> Discrete</div>
+    </div>
+    <div ng-style="active[4].style" ng-click="switchPic(4)" class="feat-item"><img class="icons-large"
+                                                                                   src="https://vectr.com/theonlyhope/TBgAwZEW69.png">
+        <div ng-if="smallscreen">Charges in case</div>
+    </div>
 
 </div>
 
 <div ng-style="sectionstyle" class="section-4">
     <div>
-    <figure class="snip1167">
-        <img class="left"
-             src="https://static1.squarespace.com/static/5294070de4b070faa7d289b7/t/55aef205e4b001f51b4b2095/1437528582019/ph.png?format=1500w"
-             alt="sq-sample3"/>
-        <blockquote>Meowww. Meowwwwwww..... Meow, meow, meow, meeeeow, meow, mmmmmmeow, meow. Now I don't have to
-            stretch my paws.
-        </blockquote>
-        <div class="author">
-            <h5>Mr.Kitten <span> ProductHunt</span></h5>
-        </div>
-    </figure>
+        <figure ng-style="testyle" class="snip1167">
+            <img class="left"
+                 src="https://static1.squarespace.com/static/5294070de4b070faa7d289b7/t/55aef205e4b001f51b4b2095/1437528582019/ph.png?format=1500w"
+                 alt="sq-sample3"/>
+            <blockquote>Meowww. Meowwwwwww..... Meow, meow, meow, meeeeow, meow, mmmmmmeow, meow. Now I don't have to
+                stretch my paws.
+            </blockquote>
+            <div class="author">
+                <h5>Mr.Kitten <span> ProductHunt</span></h5>
+            </div>
+        </figure>
     </div>
 
-    <figure class="snip1167">
+    <figure ng-style="testyle" class="snip1167">
         <img class="right"
              src="http://vignette1.wikia.nocookie.net/courage/images/1/11/Courage.a.jpg/revision/latest?cb=20110304185658"
              alt="sq-sample3"/>
@@ -63,7 +79,7 @@
         </div>
     </figure>
 
-    <figure class="snip1167">
+    <figure ng-style="testyle" class="snip1167">
         <img class="left" src="https://pbs.twimg.com/media/CLI0F7DUkAEiVE6.png"/>
         <blockquote>My friends used to judge me because I was always reaching for my spectacles. Now they just see the
             results on my stories. :)
@@ -72,7 +88,7 @@
             <h5>James<span> Former Glass owner</span></h5>
         </div>
     </figure>
-    <figure class="snip1167">
+    <figure ng-style="testyle" class="snip1167">
         <img class="left" src="http://www.magicalquote.com/wp-content/uploads/2015/07/Gavin-Belson.jpg"/>
         <blockquote>The team is amazing! snapRing will be better than Nucleus. It has to; I invested.
         </blockquote>
@@ -82,7 +98,7 @@
     </figure>
 </div>
 <div ng-style="sectionstyle" class="section-5">
-    <h2 class="order-title">No smart glasses yet ?</h2>
+    <h2 class="order-title">No Spectacles yet ?</h2>
     <h3 class="order-pic">First 500 orders receive Clippy, our smart camera for taking pictures anywhere </h3>
     <div class="cameradiv">
         <img class="camera-pics" src="assets/camerav1.png">
@@ -91,7 +107,8 @@
     </div>
     <div class="payment-group">
         <div class="amazonpayment">
-            <img class="amazonbutton" src="https://images-na.ssl-images-amazon.com/images/G/01/Iris3_US/en_US/inca/images/btnPay-gld-Desktop-2x.png">
+            <img class="amazonbutton"
+                 src="https://images-na.ssl-images-amazon.com/images/G/01/Iris3_US/en_US/inca/images/btnPay-gld-Desktop-2x.png">
             <div class="moneybutton">Get Money</div>
         </div>
     </div>
@@ -100,7 +117,7 @@
     <div><h3 class="contact-text">Contact Us</h3></div>
     <div class="form">
         <div class="top-form">
-            <div class="name-form"><input class="sub-input" placeholder="First, Last Name"></div>
+            <div class="name-form"><input class="sub-input" placeholder=" Name"></div>
             <div class="email-form"><input class="sub-input" placeholder="Email Address"></div>
         </div>
 
@@ -109,9 +126,7 @@
         <div class="submit-form">
             <button class="submit-button">Submit</button>
         </div>
-
-
     </div>
 
 </div>
-<div class="bottomtext">Made by <a href="https://www.twitter.com/the_OnlyHope"> Hope</a></div>
+<div class="bottomtext">Made by <a href="https://github.com/hopeatina"> Hope</a></div>
