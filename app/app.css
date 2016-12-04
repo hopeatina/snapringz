@@ -682,6 +682,7 @@ input, textarea {
 .camera-pics {
     height: auto;
     width: 30%;
+    max-width: 250px;
     background: #fbfc00;
     padding: 1%;
     /* border: 100px; */
