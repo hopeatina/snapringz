@@ -10,6 +10,7 @@ angular.module('myApp.view1', ['ngRoute'])
     }])
 
     .controller('View1Ctrl', ['$scope', '$window', function ($scope, $window) {
+        $window.Maitre = { uuid: "MF3af70aaa3f" };
         $scope.sectionstyle = {"height": $window.innerHeight - 56 + "px"};
         $scope.testyle = $window.innerWidth < 1283 ? { "margin-left": ($window.innerWidth-500)/2 + "px", "margin-right": ($window.innerWidth-500)/2 + "px" } :
         {"margin-left": ($window.innerWidth-1000)/5 + "px", "margin-right": ($window.innerWidth-1000)/5 + "px"};

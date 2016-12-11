@@ -15,7 +15,7 @@
     .toptext {
         color: black;
         position: relative;
-        bottom: 33%;
+        bottom: 31%;
         width: 100%;
         text-align: center;
         margin-bottom: 4%;
@@ -33,8 +33,8 @@
         position: relative;
         bottom: 33%;
         /* width: 100%; */
-        margin-left: 10%;
-        margin-right: 10%;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
     }
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
@@ -175,16 +175,17 @@
     .background-slide-3 {
         background: white url(./assets/actspec.png) 50% 25% no-repeat;
         background-size: contain;
-    margin: 0;
+        margin: 0;
         height: 100%;
     }
 
     .preorderdiv {
         position: relative;
         bottom: 27%;
-        /* width: 100%; */
-        margin-left: 33%;
-        margin-right: 33%;
+        width: 100%;
+        height: 60px;
+        /* margin-left: 33%; */
+        /* margin-right: 33%; */
     }
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
@@ -307,7 +308,7 @@
     .background-slide-3 {
         background: white url(./assets/actspec.png) 50% 25% no-repeat;
         background-size: contain;
-    margin: 0;
+        margin: 0;
         height: 100%;
     }
 
@@ -325,7 +326,7 @@
 @media only screen and (min-width: 992px) {
 
     .background-slide-1 {
-        background: #dadada url(./assets/3ringz.png) 50% -120px no-repeat;
+        background: #dadada url(./assets/3ringz.png) 50% -40px no-repeat;
         background-size: contain;
         /* width: 100%; */
         margin: 0;
@@ -335,7 +336,7 @@
     .background-slide-3 {
         background: white url(./assets/actspec.png) 50% 0% no-repeat;
         background-size: contain;
-    margin: 0;
+        margin: 0;
         height: 100%;
     }
     .preorderdiv {
@@ -361,7 +362,7 @@
     .background-slide-3 {
         background: white url(./assets/actspec.png) 50% -25% no-repeat;
         background-size: contain;
-    margin: 0;
+        margin: 0;
         height: 100%;
     }
     .preorderdiv {
@@ -585,12 +586,13 @@ html {
 }
 
 input, textarea {
-    line-height: normal;
+    line-height: 55px;
     border: 3px rgba(120, 117, 117, 0.26);
     border-style: solid;
-    border-radius: 4px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.87);
     opacity: 1;
+    /* max-width: 1005%; */
 }
 
 .message-form {
