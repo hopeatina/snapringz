@@ -1,5 +1,6 @@
 /* app css stylesheet */
-
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -11,6 +12,15 @@
         margin: 0;
         height: 100%;
     }
+
+    .form {
+        margin: auto;
+        width: 85%;
+    }
+    .email {
+        width: 45%;
+    }
+
 
     .toptext {
         color: black;
@@ -37,14 +47,13 @@
         /* margin-right: 10%; */
     }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
     figure.snip1167 {
         font-family: 'Raleway', Arial, sans-serif;
         position: relative;
         float: left;
         overflow: hidden;
-        margin: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
         max-width: 500px;
         /* min-width: 220px; */
         width: 90%;
@@ -165,13 +174,21 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
     .background-slide-1 {
-        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background: #dadada url(./assets/3ringz.png) 50% 25% no-repeat;
         background-size: contain;
         /* width: 100%; */
         margin: 0;
         height: 100%;
     }
 
+    .email {
+        width: 55%;
+    }
+
+    .form {
+        margin: auto;
+        width: 85%;
+    }
     .background-slide-3 {
         background: white url(./assets/actspec.png) 50% 25% no-repeat;
         background-size: contain;
@@ -188,14 +205,13 @@
         /* margin-right: 33%; */
     }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
     figure.snip1167 {
         font-family: 'Raleway', Arial, sans-serif;
         position: relative;
         float: left;
         overflow: hidden;
-        margin: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
         /* min-width: 220px; */
         width: 90%;
         /* height: 312px; */
@@ -298,11 +314,20 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
     .background-slide-1 {
-        background: #dadada url(./assets/3ringz.png) 50% 50% no-repeat;
+        background: #dadada url(./assets/3ringz.png) 50% 25% no-repeat;
         background-size: contain;
         /* width: 100%; */
         margin: 0;
         height: 100%;
+    }
+
+    .email {
+        width: 61%;
+    }
+
+    .form {
+        margin: auto;
+        width: 60%;
     }
 
     .background-slide-3 {
@@ -316,8 +341,8 @@
         position: relative;
         bottom: 27%;
         /* width: 100%; */
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 33%;
+        margin-right: 33%;
     }
 
 }
@@ -326,11 +351,27 @@
 @media only screen and (min-width: 992px) {
 
     .background-slide-1 {
-        background: #dadada url(./assets/3ringz.png) 50% -40px no-repeat;
+        background: #dadada url(./assets/3ringz.png) 50% -60px no-repeat;
         background-size: contain;
         /* width: 100%; */
         margin: 0;
         height: 100%;
+    }
+
+    .toptext {
+        color: black;
+        position: relative;
+        bottom: 27%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4%;
+        font-style: italic;
+        font-size: x-large;
+    }
+
+    .form {
+        margin: auto;
+        width: 60%;
     }
 
     .background-slide-3 {
@@ -357,6 +398,11 @@
         /* width: 100%; */
         margin: 0;
         height: 100%;
+    }
+
+    .form {
+        margin: auto;
+        width: 50%;
     }
 
     .background-slide-3 {
@@ -471,11 +517,11 @@
 }
 
 .section-4 {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
     width: 100%;
-    /*height: 100%;*/
-    background: linear-gradient(to bottom right, #7fff00 0%, #fffc00 70%, #ffffff 0%);
+    /*min-height: 110%;*/
+    background: linear-gradient(135deg, #7fff00 0%, #fffc00 70%, #ffffff 0%);
 }
 
 .section-5 {
@@ -492,7 +538,7 @@
     overflow-y: hidden;
     width: 100%;
     height: 50%;
-    background: linear-gradient(to top left, #7fff00 0%, #fffc00 70%, #ffffff 0%);
+    background: linear-gradient(-45deg, #7fff00 0%, #fffc00 70%, #ffffff 0%);
     padding-top: 15%;
 }
 
@@ -629,10 +675,7 @@ input, textarea {
     text-align: center;
 }
 
-.form {
-    margin: auto;
-    width: 50%;
-}
+
 
 .submit-form {
     margin: auto;
@@ -768,3 +811,4 @@ input, textarea {
     bottom: 9%;
     text-align: center;
 }
+
